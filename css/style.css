@@ -1,8 +1,9 @@
 /* med et undermenu-niveau */
 .menu {
-  display: inline-flex;}
+  display: inline-flex;
+font-family: "Kohinoor Telugu", sans-serif;}
 .submenu { display: none; }
-.menu>li:hover>.submenu { display:block; }
+.menu>li:hover>.submenu { display: block;}
 
 /*
 Hvis der er behov for flere niveauer, så prøv:
@@ -13,7 +14,7 @@ Hvis der er behov for flere niveauer, så prøv:
 
 /* Google fonts (NB: load før :root) */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-/* font-family: 'Roboto', light 300; */
+/* font-family: 'Roboto', sans-serif */
 
 :root {
   /* farver */
@@ -26,7 +27,9 @@ Hvis der er behov for flere niveauer, så prøv:
 
 {
   /*fonte*/
---displayH: 'Roboto';
+--displayH: Roboto;
+--font-family: "Brush Script MT", cursive;
+--font-family: "Kohinoor Telugu", sans-serif;
 }
 
 /* responsive regler */
@@ -50,7 +53,7 @@ Hvis der er behov for flere niveauer, så prøv:
 /*header*/
 header {
   background-color: white;
-  font: 'Roboto';
+
 }
 
 button {
@@ -81,28 +84,46 @@ a:hover {
 
 
 /*tekst*/
-h1 {
-  Font: Roboto;
+h1, h2 {
+  font-family: "Kohinoor Telugu", sans-serif;
   Color: var(--red)
 
 }
 
-p {
-  font: 'Roboto';
-  color: black;
-}
+
 
 h3 {
+  font-family: "Kohinoor Telugu", sans-serif;
   color: black;
 
 }
 
-.footer {
-  display: inline-flex;
+
+p {
+  font-family: "Kohinoor Telugu", sans-serif;
+  color: black;
 }
 
-.footertekst {
-  padding: 3em;
+
+#oktober {
+  font-family: "Brush Script MT", cursive;
+  font-size: 60px;
+}
+
+#læs {
+  font-weight: bolder;
+}
+
+#artikel {
+  text-align: center;
+}
+
+
+
+/*indhold*/
+
+.midt {
+  display: inline;
 }
 
 
@@ -117,11 +138,20 @@ h3 {
   background-color: white;
   text-align: center;
 
-
 }
+
+/*footer*/
 
 footer {
   background: white;
 }
+.footer {
+  display: inline-flex;
+}
+
+.footertekst {
+  padding: 3em;
+}
+
 
 /* @uri: https://www.w3schools.com/css/css3_mediaqueries.asp */
