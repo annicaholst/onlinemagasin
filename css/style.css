@@ -1,0 +1,127 @@
+/* med et undermenu-niveau */
+.menu {
+  display: inline-flex;}
+.submenu { display: none; }
+.menu>li:hover>.submenu { display:block; }
+
+/*
+Hvis der er behov for flere niveauer, så prøv:
+
+.menu li>ul { display: none; }
+.menu li:hover>ul { display: block; }
+*/
+
+/* Google fonts (NB: load før :root) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* font-family: 'Roboto', light 300; */
+
+:root {
+  /* farver */
+  --blue: #5c7189;
+  --white: #ffffff;
+  --red: #ad755a;
+  --beige: #ddd5cd;
+  --green:#9cae8c;
+}
+
+{
+  /*fonte*/
+--displayH: 'Roboto';
+}
+
+/* responsive regler */
+
+@media screen and (max-width: 401px) {
+  body {
+    background-color: var(--beige);
+    color: #fff;
+    font-size: 200%;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-color: var(--beige);
+    color: #fff;
+    font-size: 110%;
+  }
+}
+
+/*header*/
+header {
+  background-color: white;
+  font: 'Roboto';
+}
+
+button {
+  background-color: var(--red);
+
+}
+
+.headerindhold {
+  display: inline-flex;
+
+}
+
+
+/*link udseende*/
+a:link, a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--red);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+
+/*tekst*/
+h1 {
+  Font: Roboto;
+  Color: var(--red)
+
+}
+
+p {
+  font: 'Roboto';
+  color: black;
+}
+
+h3 {
+  color: black;
+
+}
+
+.footer {
+  display: inline-flex;
+}
+
+.footertekst {
+  padding: 3em;
+}
+
+
+.flexartikler {
+  display: flex;
+
+}
+
+.artikel {
+  margin: 2px;
+  padding-bottom: 2px;
+  background-color: white;
+  text-align: center;
+
+
+}
+
+footer {
+  background: white;
+}
+
+/* @uri: https://www.w3schools.com/css/css3_mediaqueries.asp */
