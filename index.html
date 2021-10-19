@@ -10,28 +10,25 @@
 <body>
 
 <header>
-  <section class="header">
-    <article class=headerindhold>
+
+  <div id="knapper">
+
+  <button type="button">
+      <img src="images/soeg.png" alt="søg" style="width:20px">
+    Søg
+  </button>
+  <button type="button">Abonner</button>
+  </div>
+
+    <div class="headerindhold">
+      <div id="logo">
+
       <a href="index.html">
         <img src="images/livsstillogo.png" alt="logo" style="width: 100px; height: 130px;">
     </a>
-    </article>
-
-    <article class=headerindhold>
-      <div id="knapper">
-      <button type="button">
-          <img src="images/soeg.png" alt="søg" style="width:10px">
-        Søg
-      </button>
-      <button type="button">Abonner</button>
       </div>
-    </article>
 
-
-
-  </section>
-
-
+</div>
   <nav>
   <ul class="menu">
   <li>
@@ -67,23 +64,22 @@
 <img src="images/himmel.png" alt="sky"
 style= "width: 100%; height: 350px">
 
-<section>
+<div class="wrap">
 
   <h1 id="oktober"> Oktober </h1>
 
-<article class="midt">
+<div class="midt">
+  <article class="midttekst">
+
   <p> Oktober udgivelsen har stor fokus på
 små handlinger, der kan hjælpe med
 håndteringen af stress eller en
 presset hverdag</p>
 <p id="læs">Læs med her!</p>
 </article>
-
-<aside class="midt">
   <img src="images/billeder.png" alt="billeder">
-</aside>
+</div>
 
-</section>
 
 <h2 id="artikel"> Artikler </h2>
 <section class="flexartikler">
@@ -105,7 +101,7 @@ presset hverdag</p>
 
 
 </section>
-
+</div>
 
 <footer class= "footer">
   <article class="footertekst">
@@ -123,9 +119,8 @@ presset hverdag</p>
 
 <article class="footertekst">
   <h3> Nyhedsbrev </h3>
-    <p> Tilmeld dig </p>
+    <button type="button">Tilmeld dig</button>
 </article>
-
   </footer>
 
 
