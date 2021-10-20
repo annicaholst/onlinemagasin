@@ -10,36 +10,33 @@
 <body>
 
 <header>
-  <section class="header">
-    <article class=headerindhold>
+
+  <div id="knapper">
+
+  <button type="button">
+      <img src="images/soeg.png" alt="søg" style="width:20px">
+    Søg
+  </button>
+  <button type="button">Abonner</button>
+  </div>
+
+    <div class="headerindhold">
+      <div id="logo">
+
       <a href="index.html">
         <img src="images/livsstillogo.png" alt="logo" style="width: 100px; height: 130px;">
     </a>
-    </article>
-
-    <article class=headerindhold>
-      <div id="knapper">
-      <button type="button">
-          <img src="images/soeg.png" alt="søg" style="width:10px">
-        Søg
-      </button>
-      <button type="button">Abonner</button>
       </div>
-    </article>
 
-
-
-  </section>
-
-
+</div>
   <nav>
   <ul class="menu">
   <li>
     <a href="selvhjaelp.html">Hjælp til selvhjælp</a>
     <ul class="submenu">
       <li><a href="nr1.html">Hyg med dig selv</a></li>
-      <li><a href="nr2.html">Du skal nok nå det hele</a></li>
-      <li><a href="nr3.html">indbyg afstresning i din hverdag</a></li>
+      <li><a href="nr2.html">Indbyg afstresning i din hverdag</a></li>
+      <li><a href="nr3.html">Du skal nok nå det hele</a></li>
     </ul>
   </li>
   <li>
@@ -57,16 +54,18 @@
     </ul>
   </li>
   <li>
-    <a href="...">Kontakt os</a>
+    <a href="kontakt.html">Kontakt os</a>
   </li>
 </ul>
 </nav>
 
 </header>
 
+<div class="wrap2">
 
-<h1> Hjælp til selvhjælp</h1>
-<h2>Oktober</h2>
+<h1 id="overskrift"> Hjælp til selvhjælp</h1>
+<h2 id="underoverskrifter"> Oktober </h2>
+
 <section class="flexartikler">
 
 <article class="artikel">
@@ -88,7 +87,8 @@
 </section>
 
 
-<h2> Tidligere artikler </h2>
+
+<h2 id="underoverskrifter"> Tidligere artikler </h2>
 <section class="flexartikler">
 
 <article class="artikel">
@@ -106,10 +106,9 @@
   <p> Lorem ipsum dolor sit amet </p>
 </article>
 
-
 </section>
 
-
+</div>
 
 <footer class= "footer">
   <article class="footertekst">
@@ -129,7 +128,6 @@
   <h3> Nyhedsbrev </h3>
     <button type="button">Tilmeld dig</button>
 </article>
-
   </footer>
 
 
