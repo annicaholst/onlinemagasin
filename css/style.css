@@ -139,6 +139,7 @@ p {
   font-size: 60px;
 }
 
+
 #læs {
   font-weight: bolder;
 }
@@ -177,6 +178,26 @@ p {
   list-style-type: circle;
 }
 
+#brevkasse {
+  color: white;
+  font-size: 35px;
+  font-family: "Kohinoor Telugu", sans-serif;
+  text-align: center;
+  font-weight: lighter;
+}
+
+#besked {
+  color: white;
+  font-size: 25px;
+  font-family: "Kohinoor Telugu", sans-serif;
+  padding-left: 20px;
+}
+
+#linje {
+  color: white;
+  font-size: 25px;
+  padding-left: 20px;
+}
 
 
 /*indhold*/
@@ -191,6 +212,7 @@ p {
   padding-left: 70px;
   padding-right: 70px;
   padding-bottom: 50px;
+  margin: 0 auto;
 
 }
 
@@ -226,6 +248,14 @@ display: inline-flex;
   max-height: 300px;
 }
 
+#billeder2 {
+  padding-left: 30px;
+  padding-bottom: 30px;
+  max-width: 300px;
+  max-height: 300px;
+  padding-top: 70px;
+}
+
 .box {
 border: 4px solid green;
 max-width: 300px;
@@ -237,7 +267,41 @@ max-height: 300px;
   display: inline-flex;
 }
 
+.indholdtekst {
+  padding-top: 40px;
+  border: transparent;
+  max-width: 600px;
+}
 
+video {
+  max-width: 300px;
+}
+
+.indholdkasse {
+  display: inline-flex;
+  border: 4px solid green;
+  padding: 30px;
+  width: 80%;
+  margin-bottom: 60px;
+
+
+}
+
+.brevkassen {
+  width: 800px;
+  height: 400px;
+  background-color: var(--green);
+  margin: 0 auto;
+  border: solid green;
+  display: inline-flex;
+}
+
+
+#knap {
+padding-top: 100px;
+padding-left: 35px;
+
+}
 
 
 /*footer*/
