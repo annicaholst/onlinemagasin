@@ -54,6 +54,7 @@ Hvis der er behov for flere niveauer, så prøv:
     background-color: var(--beige);
     color: #fff;
     font-size: 200%;
+    margin: 0 auto;
   }
 }
 
@@ -62,8 +63,9 @@ Hvis der er behov for flere niveauer, så prøv:
     background-color: var(--beige);
     color: #fff;
     font-size: 110%;
-
+    margin: 0 auto;
   }
+
 }
 
 /*header*/
@@ -77,6 +79,10 @@ button {
   background-color: var(--red);
   font-size: 20px;
 
+}
+
+button:hover{
+  border: solid white;
 }
 
 .headerindhold {
@@ -112,6 +118,38 @@ a:hover {
   text-decoration: none;
 }
 
+/*forsidebillede*/
+.bigphoto {
+  position: relative;
+  text-align: center;
+}
+
+.centered1 {
+  position: absolute;
+  left: 30%;
+  top: 10%;
+
+}
+
+.centered2 {
+  position: absolute;
+  left: 40%;
+  top: 70%;
+}
+
+#genvind {
+  font-family: "Brush Script MT", cursive;
+  font-size: 80px;
+  color: white;
+
+}
+
+#slogan {
+  font-family: "Kohinoor Telugu", sans-serif;
+  color: var(--blue);
+  font-size: 20px;
+  font-weight: lighter;
+}
 
 
 
@@ -136,12 +174,16 @@ p {
 
 #oktober {
   font-family: "Brush Script MT", cursive;
-  font-size: 60px;
+  font-size: 80px;
 }
 
+.midttekst {
+  font-size: 25px;
+}
 
 #læs {
   font-weight: bolder;
+  font-family: "Kohinoor Telugu", sans-serif;
 }
 
 #underoverskrifter {
@@ -202,8 +244,11 @@ p {
 
 /*indhold*/
 
+
 .wrap {
-  padding: 10em;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-top: 20px;
 
 }
 
@@ -239,13 +284,15 @@ display: inline-flex;
 
 .billeder {
   display: inline-flex;
+  align-items: center;
+  padding-left: 15%;
 }
 
 #billeder {
   padding-left: 30px;
   padding-bottom: 30px;
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 400px;
+  max-height: 400px;
 }
 
 #billeder2 {
@@ -300,9 +347,11 @@ video {
 #knap {
 padding-top: 100px;
 padding-left: 35px;
-
 }
 
+#knap:hover {
+  border: solid var(--green);
+}
 
 /*footer*/
 
